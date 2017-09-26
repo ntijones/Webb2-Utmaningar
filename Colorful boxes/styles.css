@@ -1,0 +1,60 @@
+body /*Skapar den "största mittersta" boxen där bredden är 600px. Margin och padding är på auto så den största boxen blir i mitten av hemsidan*/
+{
+   margin: auto;     
+   padding: auto;
+       width: 600px;
+    
+}
+/*Lägger till texten i boxen samt ändrar sizen på texten och centrerar den i mittersta boxen. Lägger även till padding för att lägga till space i toppen av boxen så att texten flyttas ned.*/
+.boxes
+{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.box /*Skapar storlek för alla boxes. Width är för bredd vilket är 200px och height är höjden på boxen. Float är att de blir höger till vänster i hemsidan*/
+{
+    width: 200px;
+    height: 200px;
+    float:left;
+}
+/*Lägger till färg till alla boxar*/
+.red 
+{
+    background-color: #f00;
+}
+.green
+{
+    background-color:#0f0;
+}
+
+.blue
+{
+    background-color:#00f;
+}
+.black
+{
+    background-color:#003300;
+}
+.white
+{
+    background-color:#ffffff;
+}
+
+.gray
+{
+    background-color:#808080;
+}
+.lightblue
+{
+    background-color:#1BD2FF
+}
+.darkpink
+{
+    background-color:#FF1BCB
+}
+.purple
+{
+    background-color:#5E00FF
+}
